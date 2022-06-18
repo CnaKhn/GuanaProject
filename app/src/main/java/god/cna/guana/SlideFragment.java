@@ -37,6 +37,7 @@ public class SlideFragment extends Fragment {
                 FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
                 FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
                 fragmentTransaction.replace(R.id.layout_product, fragment);
+                fragmentTransaction.addToBackStack("");
                 fragmentTransaction.commit();
             }
         });
