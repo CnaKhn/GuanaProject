@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/GodCna/AndroidStudioProjects/Guana/app/src/main/res/drawable/bg_rounded.xml" value="0.1855" />
+        <entry key="..\:/Users/GodCna/AndroidStudioProjects/Guana/app/src/main/res/drawable/bg_trans.xml" value="0.1855" />
+        <entry key="..\:/Users/GodCna/AndroidStudioProjects/Guana/app/src/main/res/drawable/ic_back.xml" value="0.1855" />
+        <entry key="..\:/Users/GodCna/AndroidStudioProjects/Guana/app/src/main/res/drawable/ic_round_email.xml" value="0.1915" />
+        <entry key="..\:/Users/GodCna/AndroidStudioProjects/Guana/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/GodCna/AndroidStudioProjects/Guana/app/src/main/res/layout/activity_logon.xml" value="0.3064584212747995" />
+        <entry key="..\:/Users/GodCna/AndroidStudioProjects/Guana/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/GodCna/AndroidStudioProjects/Guana/app/src/main/res/layout/activity_product.xml" value="0.32834544677212485" />
+        <entry key="..\:/Users/GodCna/AndroidStudioProjects/Guana/app/src/main/res/layout/activity_signup.xml" value="0.33" />
+        <entry key="..\:/Users/GodCna/AndroidStudioProjects/Guana/app/src/main/res/layout/activity_view_product.xml" value="0.3304831124412142" />
+        <entry key="..\:/Users/GodCna/AndroidStudioProjects/Guana/app/src/main/res/layout/fragment_slide.xml" value="0.30120481927710846" />
+        <entry key="..\:/Users/GodCna/AndroidStudioProjects/Guana/app/src/main/res/layout/fragment_view_product.xml" value="0.3304831124412142" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

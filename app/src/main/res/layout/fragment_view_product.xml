@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200">
+
+
+    <ImageView
+        android:id="@+id/img_padded"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/rect_1" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignStart="@id/img_padded"
+        android:layout_alignTop="@id/img_padded"
+        android:layout_alignEnd="@id/img_padded"
+        android:layout_alignBottom="@id/img_padded"
+        android:layout_margin="21dp"
+        android:background="@drawable/bg_trans" />
+
+    <ImageView
+        android:id="@+id/btn_product_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/img_padded"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="44dp"
+        android:src="@drawable/ic_back" />
+
+    <TextView
+        android:id="@+id/txt_padded"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/txt_price"
+        android:layout_marginStart="64dp"
+        android:text="Padded Tee"
+        android:textColor="@color/white"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/img_padded"
+        android:layout_marginStart="64dp"
+        android:layout_marginBottom="72dp"
+        android:text="$86"
+        android:textColor="@color/white"
+        android:textSize="32sp" />
+
+    <ImageView
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_alignEnd="@id/img_padded"
+        android:layout_alignBottom="@id/img_padded"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="36dp"
+        android:background="@drawable/bg_rounded"
+        android:padding="8dp"
+        android:src="@drawable/ic_heart_off" />
+
+    <TextView
+        android:id="@+id/txt_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_padded"
+        android:layout_alignStart="@id/img_padded"
+        android:layout_marginStart="32dp"
+        android:text="SIZE"
+        android:textColor="@color/white"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/txt_size_xs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_padded"
+        android:layout_alignTop="@id/txt_size"
+        android:layout_alignBottom="@id/txt_size"
+        android:layout_marginStart="60dp"
+        android:layout_toEndOf="@id/txt_size"
+        android:text="XS"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/txt_size_s"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_padded"
+        android:layout_alignTop="@id/txt_size"
+        android:layout_alignBottom="@id/txt_size"
+        android:layout_marginStart="32dp"
+        android:layout_toEndOf="@id/txt_size_xs"
+        android:text="S"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/txt_size_M"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_padded"
+        android:layout_alignTop="@id/txt_size_xs"
+        android:layout_alignBottom="@id/txt_size"
+        android:layout_marginStart="32dp"
+        android:layout_toEndOf="@id/txt_size_s"
+        android:background="@drawable/bg_rounded"
+        android:gravity="center_horizontal"
+        android:text="M"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt_size_L"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_padded"
+        android:layout_alignTop="@id/txt_size_xs"
+        android:layout_alignBottom="@id/txt_size"
+        android:layout_marginStart="32dp"
+        android:layout_toEndOf="@id/txt_size_M"
+        android:text="L"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/txt_size_XL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_padded"
+        android:layout_alignTop="@id/txt_size_xs"
+        android:layout_alignBottom="@id/txt_size"
+        android:layout_marginStart="32dp"
+        android:layout_toEndOf="@id/txt_size_L"
+        android:text="XL"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+
+</RelativeLayout>
