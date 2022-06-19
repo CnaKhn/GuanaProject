@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@color/purple_200">
 
 
@@ -60,21 +60,22 @@
         android:id="@+id/btn_arrow_left"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/ic_arrow_left"
         android:layout_below="@id/txt_price"
         android:layout_marginStart="64dp"
-        android:layout_marginTop="-60dp"/>
+        android:layout_marginTop="-60dp"
+        android:src="@drawable/ic_arrow_left" />
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/ic_arrow_right"
         android:layout_below="@id/txt_price"
-        android:layout_toEndOf="@id/btn_arrow_left"
+        android:layout_marginStart="24dp"
         android:layout_marginTop="-60dp"
-        android:layout_marginStart="24dp"/>
+        android:layout_toEndOf="@id/btn_arrow_left"
+        android:src="@drawable/ic_arrow_right" />
 
     <ImageView
+        android:id="@+id/btn_add_like"
         android:layout_width="42dp"
         android:layout_height="42dp"
         android:layout_alignEnd="@id/img_padded"
@@ -100,12 +101,12 @@
 
     <TextView
         android:id="@+id/txt_size_xs"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
         android:layout_below="@id/img_padded"
         android:layout_alignTop="@id/txt_size"
         android:layout_alignBottom="@id/txt_size"
-        android:layout_marginStart="60dp"
+        android:layout_marginStart="45dp"
         android:layout_toEndOf="@id/txt_size"
         android:text="XS"
         android:textColor="@color/white"
@@ -131,11 +132,9 @@
         android:layout_below="@id/img_padded"
         android:layout_marginStart="32dp"
         android:layout_toEndOf="@id/txt_size_s"
-        android:background="@drawable/bg_rounded"
         android:gravity="center"
         android:text="M"
-        android:textColor="@color/black"
-        android:textSize="16sp"
+        android:textSize="24sp"
         android:textStyle="bold" />
 
     <TextView
@@ -173,51 +172,51 @@
         android:layout_alignStart="@id/txt_size"
         android:layout_marginTop="42dp"
         android:text="COLOR"
+        android:textColor="@color/white"
         android:textSize="22sp"
-        android:textStyle="bold"
-        android:textColor="@color/white"/>
+        android:textStyle="bold" />
 
     <ImageView
         android:id="@+id/img_color_white"
         android:layout_width="42dp"
         android:layout_height="42dp"
-        android:background="@drawable/bg_rounded"
         android:layout_below="@id/txt_size_s"
-        android:layout_toEndOf="@id/txt_color"
+        android:layout_marginStart="64dp"
         android:layout_marginTop="32dp"
-        android:layout_marginStart="64dp"/>
+        android:layout_toEndOf="@id/txt_color"
+        android:background="@drawable/bg_rounded" />
 
     <ImageView
         android:id="@+id/img_color_blue"
         android:layout_width="42dp"
         android:layout_height="42dp"
-        android:background="@drawable/bg_rounded"
-        android:backgroundTint="@color/teal_700"
         android:layout_below="@id/txt_size_s"
-        android:layout_toEndOf="@id/img_color_white"
+        android:layout_marginStart="32dp"
         android:layout_marginTop="32dp"
-        android:layout_marginStart="32dp"/>
+        android:layout_toEndOf="@id/img_color_white"
+        android:background="@drawable/bg_rounded"
+        android:backgroundTint="@color/teal_700" />
 
     <ImageView
         android:id="@+id/img_color_green"
         android:layout_width="42dp"
         android:layout_height="42dp"
-        android:background="@drawable/bg_rounded"
-        android:backgroundTint="@color/black"
         android:layout_below="@id/txt_size_s"
-        android:layout_toEndOf="@id/img_color_blue"
+        android:layout_marginStart="32dp"
         android:layout_marginTop="32dp"
-        android:layout_marginStart="32dp"/>
+        android:layout_toEndOf="@id/img_color_blue"
+        android:background="@drawable/bg_rounded"
+        android:backgroundTint="@color/black" />
 
     <com.google.android.material.button.MaterialButton
         android:layout_width="match_parent"
         android:layout_height="80dp"
         android:layout_below="@id/txt_color"
         android:layout_margin="64dp"
-        app:rippleColor="@color/white"
         android:text="Buy Now"
-        android:textColor="@color/white"
         android:textAllCaps="false"
-        android:textSize="24sp"/>
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:rippleColor="@color/white" />
 
 </RelativeLayout>
